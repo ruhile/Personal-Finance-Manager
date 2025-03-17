@@ -1,0 +1,85 @@
+/* ==== Global Styles ==== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* ==== Navbar ==== */
+  nav {
+    background-color: #007bff;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* ==== Container ==== */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ==== Buttons ==== */
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* ==== Expense List ==== */
+  .expense-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
