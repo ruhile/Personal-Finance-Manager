@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/expenses";
+const API_URL = "https://personal-finance-manager-xrk9.onrender.com/api/expenses";
 
 export const fetchExpenses = async () => {
   const response = await fetch(API_URL);
