@@ -14,8 +14,12 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.error("❌ MongoDB Connection Error:", err));
 
 // 📌 Routes
+// Routes
 const expenseRoutes = require("./routes/expense");
+const authRoutes = require("./routes/auth");
+
 app.use("/api/expenses", expenseRoutes);
+app.use("/api/auth", authRoutes);
 
 // 📌 Dynamic PORT (IMPORTANT)
 const PORT = process.env.PORT || 5000;
